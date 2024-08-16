@@ -12,7 +12,8 @@ Saya membangun model deep learning dengan arsitektur sebagai berikut:
 - 4 Lapisan Convolutional: Setiap lapisan convolutional dilengkapi dengan lapisan max pooling untuk mengurangi dimensi data dan menangkap fitur penting dari gambar.
 - 1 Lapisan Flatten: Digunakan untuk meratakan output dari lapisan convolutional menjadi satu dimensi, sehingga dapat dihubungkan dengan lapisan dense.
 - 2 Lapisan Dense: Lapisan ini berfungsi untuk melakukan klasifikasi berdasarkan fitur yang diekstraksi oleh lapisan-lapisan sebelumnya.
-Model ini dikompilasi menggunakan optimizer Adam dengan learning rate sebesar 0.001. Saya melatih model menggunakan 15 epoch dengan 41 step per epoch.
+
+Model ini dicompile menggunakan optimizer Adam dengan learning rate sebesar 0.001. Saya melatih model menggunakan 15 epoch dengan 41 step per epoch.
 
 [ Evaluasi Model ]
 
